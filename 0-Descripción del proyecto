@@ -1,1 +1,14 @@
+Tu propuesta consiste en desarrollar un juego con un sistema experto integrado, donde los usuarios se registran al inicio creando un personaje con nombre, 
+estadísticas y una clase típica de rol (guerrero, ladrón, mago, sacerdote o explorador). Estas características iniciales se almacenan en una base de datos 
+local, que servirá como referencia para las interacciones posteriores. Aunque en esta primera versión las estadísticas no se modifican, más adelante planeas 
+expandir el sistema para que evolucionen como en un RPG.
 
+El núcleo del proyecto es un tendero inteligente, un NPC que actúa como asistente dentro de la tienda. Este tendero no solo pregunta qué necesita el jugador, 
+sino que analiza su clase y estadísticas para recomendar productos adecuados. Por ejemplo, ofrecer varitas y túnicas a un mago, o espadones y armaduras a un 
+guerrero. Además, puede rechazar solicitudes incoherentes con estilo narrativo, como burlarse de un mago que pide un espadón pesado. De esta manera, el tendero 
+funciona como un agente experto que aplica reglas de inferencia y aporta explicabilidad en sus decisiones.
+
+La arquitectura se basa en agentes inteligentes: uno para la atención al cliente (el tendero que conversa), otro para generar y validar pedidos (consultando stock 
+y guardando en la base de datos), y un supervisor que resume la transacción y explica las inferencias realizadas. Todo se ejecuta de manera local en tu computadora, 
+usando herramientas como Python, FastAPI/Flask, SQLite y frameworks de interfaz como Streamlit o Gradio. Así cumples con los requisitos académicos de sistemas 
+expertos, motores de inferencia, agentes y explicabilidad, pero con un enfoque creativo y gamificado.
