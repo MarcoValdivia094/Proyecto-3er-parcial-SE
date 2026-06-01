@@ -12,3 +12,7 @@ La arquitectura se basa en agentes inteligentes: uno para la atención al client
 y guardando en la base de datos), y un supervisor que resume la transacción y explica las inferencias realizadas. Todo se ejecuta de manera local en tu computadora, 
 usando herramientas como Python, FastAPI/Flask, SQLite y frameworks de interfaz como Streamlit o Gradio. Así cumples con los requisitos académicos de sistemas 
 expertos, motores de inferencia, agentes y explicabilidad, pero con un enfoque creativo y gamificado.
+
+2DA VERSIÓN
+
+Estudiaré de forma correcta el uso de API de whatsapp, por lo cual el objetivo del proyecto cambiará.
