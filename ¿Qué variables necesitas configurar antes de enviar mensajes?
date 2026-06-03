@@ -1,0 +1,8 @@
+Para que la colección funcione correctamente, debes configurar tres variables principales en el apartado de configuración de Postman:
+
+Versión de la API: en el ejemplo proporcionado se utiliza la versión veinte, que puedes copiar directamente desde la documentación [03:15].
+Phone Number ID: es el identificador del número de teléfono del bot, disponible en el panel administrador de Meta [02:50].
+Número de WhatsApp destino: el número que recibirá los mensajes, incluyendo la clave del país (por ejemplo, 57 para Colombia) [03:30].
+
+Es fundamental recordar que solo puedes registrar cinco números permitidos para pruebas. Si ya utilizaste los cinco, no será posible agregar 
+un sexto número debido a las restricciones de la plataforma.
