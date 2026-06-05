@@ -1,0 +1,36 @@
+NOTA: En el "000- Registro DIARIO", en el punto 2 te indica que apks debes descargar para que esto funcione, si no lo haces te marcará error.
+
+Configurar el espacio de trabajo y preparar las herramientas iniciales es esencial para desarrollar aplicaciones eficientes y escalables. A continuación, 
+te guiaré a través de los pasos para crear un servidor básico con Express, con recomendaciones para optimizar el flujo de trabajo en Node.js.
+
+****¿Cómo organizar la estructura de carpetas para el proyecto?**** 
+Primero: ¡¡¡ABRE CMD!!!
+
+-Directorio principal: Crea una carpeta donde organizarás todos tus proyectos. Por ejemplo, si usas un directorio llamado dev, dentro puedes crear carpetas 
+específicas para cada proyecto. Para este caso:
+          mkdir whatsapp (directorio raíz del proyecto)
+  Dentro de esta, mkdir med-pet, que será el espacio de trabajo de nuestra aplicación para una veterinaria.
+
+
+****¿Cómo iniciar el repositorio de Git y la configuración de NPM?****
+
+-Inicializar Git: En la carpeta med-pet, ejecuta:
+          git init
+  Esto crea un repositorio Git para gestionar la evolución de tu proyecto y guardar los cambios localmente y en la nube.
+
+-Configurar NPM: Para instalar las dependencias de JavaScript, inicializa NPM con:
+          npm init -y
+  Este comando genera un archivo package.json con configuraciones iniciales.
+
+
+****¿Cuáles son las dependencias necesarias para el proyecto?****
+
+-Express: Este framework facilita la creación de servidores HTTP:
+          npm install express
+-Axios: Permite hacer peticiones HTTP hacia APIs externas:
+          npm install axios
+-Dotenv: Para gestionar variables de entorno como tokens o identificadores de forma segura:
+          npm install dotenv
+Nodemon: Herramienta de desarrollo que supervisa cambios en el código y reinicia automáticamente el servidor sin interrupciones manuales. 
+Instálala como dependencia de desarrollo:
+          npm install nodemon --save-dev
