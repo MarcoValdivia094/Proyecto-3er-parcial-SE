@@ -34,3 +34,8 @@ específicas para cada proyecto. Para este caso:
 Nodemon: Herramienta de desarrollo que supervisa cambios en el código y reinicia automáticamente el servidor sin interrupciones manuales. 
 Instálala como dependencia de desarrollo:
           npm install nodemon --save-dev
+
+
+
+En Visual Studio Code:
+Crear un archivo .gitignore: Añade node_modules para excluir esta carpeta del control de versiones, evitando subir dependencias innecesarias a Git.
