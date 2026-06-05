@@ -1,1 +1,22 @@
-3/Junio1  Se hicieron pruebas de envio de mensajes, además que el dia de hoy me enfoqué en leer las caracteristicas y utilidades que posee la API de WhatsApp
+1.- 3/Junio  Se hicieron pruebas de envio de mensajes, además que el dia de hoy me enfoqué en leer las caracteristicas y utilidades que posee la API de WhatsApp
+2.- 4/Junio  Se hizo lo siguiente:
+      "Para instalar Git y Node.js en Windows, sigue estos pasos:
+    
+      Instalar Git:
+      
+      Ve a git-scm.com.
+      Descarga el instalador para Windows.
+      Ejecuta el archivo descargado y sigue las instrucciones. Acepta las opciones predeterminadas.
+      Instalar Node.js:
+      
+      Ve a nodejs.org.
+      Descarga el instalador de la versión LTS (recomendado).
+      Ejecuta el archivo descargado y sigue las instrucciones. Asegúrate de seleccionar la opción de agregar Node.js al PATH.
+      Verificar las instalaciones:
+      
+      Abre la terminal (cmd).
+      Escribe git --version para verificar Git.
+      Escribe node -v y npm -v para verificar Node.js y npm.
+      Estos pasos te permitirán tener ambas herramientas listas para tu proyecto."
+
+3.-
